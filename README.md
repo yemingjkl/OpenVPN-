@@ -1,4 +1,4 @@
-# OpenVPN-
+
 OpenVPN 配置教程
 
 ### 1. 安装必要软件
@@ -182,5 +182,13 @@ push "dhcp-option DNS 1.1.1.1"
 ```
 
 
-```
 Ipv6防火墙 /::ffff:ffff:ffff:ffff
+导出配置文件，可以用我库里的 gen_ovpn.sh
+将脚本内的ddns改成你本人的
+```
+chmod +x gen_ovpn.sh
+```
+用命令
+```
+bash gen_ovpn.sh client(A/B/C )
+```
