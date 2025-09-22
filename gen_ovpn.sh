@@ -17,7 +17,7 @@ CLIENT_KEY_FILE="$EASYRSA_DIR/pki/private/$CLIENT_NAME.key"
 OUTPUT_OVP_FILE="/etc/openvpn/$CLIENT_NAME.ovpn"
 
 # 请根据你的实际情况修改以下参数
-OPENVPN_SERVER_IP="yzbnzy.dns.army"
+OPENVPN_SERVER_IP="**********"
 PORT="1194"
 PROTO="tcp-client"
 
