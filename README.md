@@ -192,3 +192,4 @@ chmod +x gen_ovpn.sh
 ```
 bash gen_ovpn.sh client(A/B/C )
 ```
+括号去掉
